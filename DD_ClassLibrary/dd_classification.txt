@@ -1,0 +1,177 @@
+100 Philosophy & psychology
+101 Theory of philosophy
+102 Miscellany
+103 Dictionaries and encyclopaedias
+105 Serial publications
+106 Organizations and management
+107 Education, research, related topics of philosophy
+108 Groups of people
+109 History and collected biography
+110 Metaphysics
+111 Ontology
+113 Cosmology (Philosophy of nature)
+114 Space
+115 Time
+116 Change
+117 Structure
+118 Force and energy
+119 Number and quantity
+120 Epistemology, causation, and humankind
+121 Epistemology (Theory of knowledge)
+122 Causation
+123 Determinism and indeterminism
+124 Teleology
+126 The self
+127 The unconscious and the subconscious
+128 Humankind
+129 Origin and destiny of individual souls
+130 Paranormal phenomena
+131 Occult methods for achieving well-being
+133 Parapsychology & occultism
+135 Dreams & mysteries
+137 Divinatory graphology
+138 Physiognomy
+139 Phrenology
+200 Religion
+201 Philosophy of Christianity
+202 Doctrines
+203 Public worship and other practices
+204 Religious experience, life, practice
+205 Religious ethics
+206 Leaders and organization
+207 Missions and religious education
+208 Sources
+209 Sects and reform movements
+210 Philosophy and theory of religion
+211 Concepts of God
+212 Existence, ways of knowing God, attributes of God
+213 Creation
+214 Theodicy
+215 Science and religion
+218 Humankind
+260 Social and ecclesiastical theology
+261 Social theology and interreligious relations and attitudes
+262 Ecclesiology
+263 Days, times, places of religious observance
+264 Public worship
+265 Sacraments, other rites and acts
+266 Missions
+267 Associations for religious work
+268 Religious education
+269 Spiritual renewal
+270 History of Christianity
+271 Religious congregations and orders in church history
+272 Persecutions in church history
+273 Doctrinal controversies and heresies in general church history
+274 Christianity in Europe
+275 Christianity in Asia
+276 Christianity in Africa
+277 Christianity in North America
+278 Christianity in South America
+279 History of Christianity in other areas
+300 Social sciences, sociology, and anthropology
+301 Sociology and anthropology
+302 Social interaction
+303 Social processes
+304 Factors affecting social behaviour
+305 Groups of people
+306 Culture and institutions
+307 Communities
+310 General Statistics
+314 General statistics of Europe
+315 General statistics of Asia
+316 General statistics of Africa
+317 General statistics of North America
+318 General statistics of South America
+319 General statistics of other parts of the world
+320 Political Sciences
+321 Systems of governments & states
+322 Relation of state to organized groups
+323 Civil & political rights
+324 The political process
+325 International migration & colonization
+326 Slavery & emancipation
+327 International relations
+328 The legislative process
+360 Social problems and social services
+361 Social problems and services
+362 Social problems of and services to groups of people
+363 Other social problems and services
+364 Criminology
+365 Penal and related institutions
+366 Secret associations and societies
+367 General clubs
+368 Insurance
+369 Associations
+400 Language
+410 Linguistics
+411 Writing systems of standard forms of languages
+412 Etymology of standard forms of languages
+413 Dictionaries of standard forms of languages
+414 Phonology and phonetics of standard forms of languages
+415 Grammar of standard forms of languages
+417 Dialectology and historical linguistics
+418 Standard usage (Prescriptive linguistics)
+419 Sign languages
+420 English and Old English Languages
+421 Writing system, phonology, phonetics of standard English
+422 Etymology of standard English
+423 Dictionaries of standard English
+425 Grammar of standard English
+427 English language variations
+428 Standard English usage 
+429 Old English (Anglo-Saxon)
+430 Germanic languages German
+431 German writing system & phonology
+432 German etymology
+433 German dictionaries
+435 German grammar
+437 German language variations
+438 Standard German usage
+439 Other Germanic languages
+450 Italian, Romanian, Rhaetia-Romantic
+451 Italian writing system & phonology
+452 Italian etymology
+453 Italian dictionaries
+455 Italian grammar
+457 Italian language variations
+458 Standard Italian usage
+459 Romanian & Rhaeto-Romanic
+500 Natural sciences and mathematics
+501 Philosophy and theory
+502 Miscellany
+503 Dictionaries, encyclopaedias, concordances
+505 Serial publications
+506 Organizations and management
+507 Education, research, related topics
+508 Natural history
+509 History, geographic treatment, biography
+550 Earth sciences and geology
+551 Geology, hydrology, meteorology
+552 Petrology
+553 Economic geology
+554 Earth sciences of Europe
+555 Earth sciences of Asia
+556 Earth sciences of Africa
+557 Earth sciences of North America
+558 Earth sciences of South America
+559 Earth sciences of other areas
+570 Biology
+571 Physiology and related subjects
+572 Biochemistry
+573 Specific physiological systems in animals, regional histology, and physiology in animals
+575 Specific parts of and physiological systems in plants
+576 Genetics and evolution
+577 Ecology
+578 Natural history of organisms and related subjects
+579 Natural history of microorganisms, fungi, algae
+590 Animals 
+591 Specific topics in natural history of animals
+592 Invertebrates
+593 Miscellaneous marine and seashore invertebrates
+594 Mollusca and Molluscoid
+595 Arthropoda
+596 Chordata
+597 Cold-blooded vertebrates
+598 Aves (Birds)
+599 Mammalia (Mammals)

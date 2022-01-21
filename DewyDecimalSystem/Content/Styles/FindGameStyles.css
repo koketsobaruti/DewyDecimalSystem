@@ -1,0 +1,320 @@
+﻿body {
+    background: #f0f0f0; /*background: linear-gradient(to bottom, #ffcc66 0%, #ff6666 100%);*/
+    font-family: Rockwell;
+}
+/*----------------------------------------------------------------00oo CONTAINER oo00-----------------------------------------------------------------*/
+.heading-container {
+    margin: 1em;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.instructions-container {
+    padding: 20px;
+    margin: 0.5em;
+    background-color: white;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.content-container {
+    background-color: white;
+    border-radius: 5px;
+    overflow: auto;
+    padding: 15px;
+    margin: 0.5em;
+    width: 60%;
+    float: left;
+    box-shadow: 0 0 18px rgba(33,33,33,.2);
+}
+
+.btnDiv {
+    width: 100%;
+    padding: 5px;
+}
+
+.answers-container {
+    margin: 0.5em;
+    padding: 10px;
+}
+
+.text-container {
+    margin: 0.5em;
+    padding: 15px;
+}
+
+.Popup {
+    background-color: white;
+    border-radius: 5px;
+    border-color: black;
+    width: 50%;
+    padding: 20px;
+    height: 60%;
+}
+
+
+.Background {
+    background-color: #a8a6a3;
+    background: rgba(0,0,0,.5);
+    opacity: 0.8;
+}
+
+.inner-text-div{
+    text-align:left;
+}
+
+.second-inner-div{
+    text-align:center;
+    margin:2em;
+}
+
+.inner-panel {
+    display: block;
+    position:absolute;
+    margin-top:3em;
+}
+
+.correct-header-container {
+    margin: 0.5em;
+    text-align: center;
+    padding: 5px;
+}
+
+.image-container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 15px;
+    margin: 0.5em;
+}
+
+.stopwatch-container {
+    width: 30%;
+    float: right;
+    height: 500px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #ff1447;
+    background-color: white;
+    margin: 0.5em;
+    transition: box-shadow .3s;
+    padding: 15px;
+    overflow: auto;
+    box-shadow: 0 0 18px rgba(33,33,33,.4);
+}
+
+.error-popup {
+    background-color: white;
+    border-radius: 5px;
+    border-color: black;
+    width: 30%;
+    padding: 20px;
+    height: 70%;
+    text-align: center;
+}
+
+.error-image-container {
+    padding-left: 5px;
+    padding-right: 30px;
+    margin: 0.5em;
+    width: 100%;
+}
+
+.error-content-container {
+    width: 100%;
+    margin: 0.5em;
+    padding: 10px;
+    height: 70%;
+}
+
+.inner-error-panel {
+    margin: 0.5em;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.name-panel {
+    margin: 0.5em;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.name-popup{
+    background-color: white;
+    border-radius: 5px;
+    border-color: black;
+    width: 50%;
+    padding: 20px;
+    height: 45%;
+}
+
+.textbox-container {
+    padding: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*----------------------------------------------------------------00oo TEXTBOX oo00-----------------------------------------------------------------*/
+
+.txt-box {
+    padding: 10px;
+    width: 40%;
+    color: #38010a;
+    font-size: 25px;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ff1447;
+}
+
+    .txt-box:hover {
+        border-color: #00e1ff;
+    }
+
+/*----------------------------------------------------------------00oo IMAGES oo00-----------------------------------------------------------------*/
+
+.image {
+    display: inline;
+    justify-items:center;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
+    width: 50px;
+    margin:0.5em;
+}
+
+.check-image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 180px;
+    width: 200px;
+}
+/*----------------------------------------------------------------00oo BULLETLIST oo00-----------------------------------------------------------------*/
+.radio-list {
+    font-size: 18px;
+    font-weight: 100;
+    color: #38010a;
+    text-align: left;
+    line-height: 2em;
+}
+
+/*----------------------------------------------------------------00oo LABELS oo00-----------------------------------------------------------------*/
+.header-label {
+    font-size: 40px;
+    color: #122352;
+}
+
+.instructions-label {
+    font-size: 20px;
+    text-align: left;
+    line-height:1.5em;
+}
+.main-instructions-label {
+    font-size: 25px;
+    color: black;
+    line-height: 1.5em;
+}
+
+.error-instructions-label {
+    font-size: 20px;
+    text-align: left;
+    color: black;
+}
+
+.second-instructions-label {
+    font-size: 20px;
+}
+
+.correct-label {
+    font-size: 90px;
+    color: #122352;
+}
+/*----------------------------------------------------------------00oo BUTTONS oo00-----------------------------------------------------------------*/
+
+.btn {
+    background-color: #fc8f30;
+    border-radius: 3px;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    width: 30%;
+    height: 45px;
+}
+
+    .btn:hover {
+        background-color: #ff7b08;
+        color: white;
+    }
+
+.start-btn {
+    background-color: #1ab802;
+    border-radius: 3px;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    width: 45%;
+    height: 45px;
+}
+
+    .start-btn:hover {
+        background-color: #8fff5c;
+    }
+
+.restart-btn {
+    background-color: #ff0019;
+    border-radius: 3px;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    width: 45%;
+    height: 45px;
+}
+
+    .restart-btn:hover {
+        background-color: #ff6978;
+    }
+
+.view-btn {
+    background-color: #1ce823;
+    border-radius: 3px;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    width: 80%;
+    margin-top: 0.5em;
+    height: 45px;
+}
+
+    .view-btn:hover {
+        background-color: #1ab802;
+    }
+
+.stop-btn {
+    background-color: #ff2121;
+    border-radius: 3px;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 0.5em;
+    width: 80%;
+    height: 45px;
+}
+
+    .stop-btn:hover {
+        background-color: #ff6542;
+    }
+/*----------------------------------------------------------------------------00oo END OF FILE oo00-------------------------------------------------------*/

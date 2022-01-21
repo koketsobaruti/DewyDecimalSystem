@@ -1,0 +1,135 @@
+﻿body {
+    background-color: #f0f0f0;
+    font-family: Rockwell;
+}
+/*----------------------------------------------------------------00oo LABELS oo00-----------------------------------------------------------------*/
+.page-container {
+    margin: 2em;
+}
+
+.heading-container{
+    margin:1em;
+    text-align:center;
+    padding-top:10px;
+}
+
+.main-body {
+    display: flex;
+    justify-content: center;
+    height:50%;
+}
+
+.replace-container {
+    width: 30%;
+    margin: 0.5em;
+    float: left;
+    height: 100%;
+    text-align: center;
+    transition: box-shadow .3s;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #ff5d47;
+}
+
+    .replace-container:hover {
+        box-shadow: 0 0 18px #9c9c9c;
+        background-color: #fa9069;
+    }
+
+.identify-container {
+    width: 30%;
+    margin: 0.5em;
+    float: left;
+    height: 100%;
+    text-align: center;
+    transition: box-shadow .3s;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #88c4f2;
+}
+
+    .identify-container:hover {
+        box-shadow: 0 0 18px #9c9c9c;
+        background-color: #54b1f7;
+    }
+
+.search-container {
+    width: 30%;
+    margin: 0.5em;
+    float: left;
+    height: 100%;
+    text-align: center;
+    transition: box-shadow .3s;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #ffaf0f;
+}
+
+    .search-container:hover {
+        box-shadow: 0 0 18px #9c9c9c;
+        background-color: #ffdd57;
+    }
+
+.image-container {
+    width: 100%;
+    padding: 15px;
+    margin-top:5em;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.inner-header-container{
+    margin:1em;
+    padding:10px;
+}
+/*----------------------------------------------------------------00oo LABELS oo00-----------------------------------------------------------------*/
+.header-label {
+    font-size: 45px;
+    color: #122352;
+}
+
+.inner-header-label {
+    font-size: 45px;
+    color: white;
+}
+/*----------------------------------------------------------------00oo IMAGES oo00-----------------------------------------------------------------*/
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*----------------------------------------------------------------00oo BUTTONS oo00-----------------------------------------------------------------*/
+
+.btn {
+    text-align: center;
+    width: 90%;
+    padding:5px;
+    font-size: 30px;
+    height: 60px;
+}
+
+    .btn:hover {
+        font-size: 26px;
+        height: 55px;
+        width: 85%;
+    }
+
+.search-btn {
+    text-align: center;
+    width: 100%;
+    padding: 3px;
+    font-size: 30px;
+    height: 100px;
+}
+
+    .search-btn:hover {
+        font-size: 26px;
+        height: 95px;
+        width: 95%;
+    }
+/*----------------------------------------------------------------------------00oo END OF FILE oo00-------------------------------------------------------*/

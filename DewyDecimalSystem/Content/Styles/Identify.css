@@ -1,0 +1,292 @@
+﻿body {
+    background: #f0f0f0; /*background: linear-gradient(to bottom, #ffcc66 0%, #ff6666 100%);*/
+    font-family: Rockwell;
+}
+
+/*----------------------------------------------------------------00oo CONTAINER oo00-----------------------------------------------------------------*/
+.heading-container {
+    margin: 1em;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.game-header-container {
+    margin: 0.5em;
+    text-align: center;
+    padding:5px;
+}
+
+.instructions-container {
+    padding: 10px;
+    margin: 0.5em;
+    background-color: white;
+    border-radius: 5px;
+    overflow: auto;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #4632a8;
+}
+
+.options-container {
+    text-align: center;
+    width: 30%;
+    float: left;
+    height: 500px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 0.5em;
+    padding: 15px;
+    overflow: auto;
+    box-shadow: 0 0 18px rgba(33,33,33,.2);
+}
+
+.stopwatch-container {
+    width: 30%;
+    float: right;
+    height: 500px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #4632a8;
+    background-color: white;
+    margin: 0.3em;
+    transition: box-shadow .3s;
+    padding: 15px;
+    overflow: auto;
+    box-shadow: 0 0 18px rgba(33,33,33,.4);
+}
+
+.answers-container {
+    width: 35%;
+    float: left;
+    height: 500px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 0.5em;
+    transition: box-shadow .3s;
+    padding: 15px;
+    overflow: auto;
+    box-shadow: 0 0 18px rgba(33,33,33,.2);
+}
+.answer-inner-container {
+    border-radius: 7px;
+    background-color: #ebfff7;
+    width:350px;
+    margin:0.5em;
+    padding:10px;
+}
+
+.answer-list-container {
+    float: left;
+}
+.matching-container{
+    float:right;
+}
+.btnDiv {
+    width: 100%;
+    height:20%;
+    padding: 5px;
+}
+
+.game-btnDiv {
+    width: 100%;
+    padding: 5px;
+    text-align:center;
+}
+
+.Popup {
+    background-color: white;
+    border-radius: 5px;
+    border-color: black;
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    height: 230px;
+}
+
+.Background {
+    background-color: #a8a6a3;
+    background: rgba(0,0,0,.5);
+    opacity: 0.8;
+}
+
+.image-container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 15px;
+    margin: 0.5em;
+}
+
+.game-instructions-container{
+    padding:10px;
+}
+
+.inner-panel {
+    height: 100px;
+    width: 95%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.text-div{
+    width:100%;
+    padding:5px;
+}
+.inner-panel-2 {
+    margin: 1em;
+    text-align: left;
+}
+.Popup-3 {
+    background-color: white;
+    border-radius: 5px;
+    border-color: black;
+    width: 50%;
+    padding: 10px;
+    height: 400px;
+}
+/*------------------------------------------------------------------------------00oo Drop Down List oo00---------------------------------------------------------------------*/
+
+.mydropdownlist {
+    color: black;
+    font-size: 15px;
+    padding: 8px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: white;
+    border-color: black;
+}
+
+    .mydropdownlist:hover {
+        color: dimgrey;
+        background-color: whitesmoke;
+        border-color: #ff8308;
+    }
+
+    .mydropdownlist:focus {
+        color: black;
+        background-color: whitesmoke;
+        border-color: #56aff1;
+    }
+
+
+
+/*----------------------------------------------------------------00oo LABELS oo00-----------------------------------------------------------------*/
+.header-label {
+    font-size: 40px;
+    color: #122352;
+}
+.help-instructions-label-2 {
+    font-size: 20px;
+    color: black;
+}
+.game-label {
+    font-size: 30px;
+    color: #122352;
+}
+.answer-label{
+    font-size:20px;
+    color:black;
+}
+
+.main-instructions-label {
+    font-size: 30px;
+    color: black;
+}
+
+.instructions-label {
+    font-size: 25px;
+    text-align: left;
+}
+/*----------------------------------------------------------------00oo BULLETLIST oo00-----------------------------------------------------------------*/
+.bullet-list {
+    font-size: 20px;
+    padding: 10px;
+    list-style-type: none;
+    text-align: center;
+    line-height: 2.7em;
+}
+
+/*----------------------------------------------------------------00oo BUTTONS oo00-----------------------------------------------------------------*/
+
+.btn {
+    background-color: #fc8f30;
+    border-radius: 3px;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    width: 30%;
+    height: 45px;
+}
+
+    .btn:hover {
+        background-color: #ff7b08;
+        color: white;
+    }
+
+.start-btn {
+    background-color: #1ab802;
+    border-radius: 3px;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    width: 45%;
+    height: 40px;
+}
+
+.game-btn {
+    background-color: #4632a8;
+    border-radius: 3px;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    width: 45%;
+    height: 45px;
+}
+    .game-btn:hover {
+        background-color: #28119c;
+    }
+
+.help-btn {
+    background-color: #1484f5;
+    border-radius: 3px;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    width: 45%;
+    height: 45px;
+}
+
+    .help-btn:hover {
+        background-color: #3695f5;
+        color: white;
+    }
+
+.close-btn {
+    background-color: #db1f12;
+    border-radius: 3px;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    width: 45%;
+    height: 45px;
+}
+
+    .close-btn:hover {
+        background-color: #ed3124;
+        color: white;
+    }
+/*----------------------------------------------------------------------------00oo END OF FILE oo00-------------------------------------------------------*/

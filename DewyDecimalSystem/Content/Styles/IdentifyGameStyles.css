@@ -1,0 +1,334 @@
+﻿body {
+    background: #f0f0f0;
+    font-family: Rockwell;
+}
+
+/*----------------------------------------------------------------00oo CONTAINER oo00-----------------------------------------------------------------*/
+.heading-container {
+    margin: 1em;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.time-header-container {
+    margin: 0.5em;
+    text-align: center;
+    padding: 5px;
+}
+
+.instructions-container {
+    padding: 10px;
+    margin: 0.5em;
+    background-color: white;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.stopwatch-container {
+    width: 30%;
+    float: right;
+    height: 500px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 0.5em;
+    transition: box-shadow .3s;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.page-container {
+    width: 95%;
+    height: 550px;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    overflow: auto;
+}
+
+.instructions-container {
+    padding: 10px;
+    margin: 0.5em;
+}
+
+.answer-inner-container {
+    border-radius: 7px;
+    background-color: #cabaff;
+    width: 350px;
+    margin: 0.3em;
+    padding: 10px;
+}
+
+.options-container {
+    text-align: center;
+    width: 30%;
+    float: left;
+    border-radius: 5px;
+    background-color: white;
+    margin: 0.5em;
+    padding: 15px;
+    overflow: auto;
+}
+
+.answers-container {
+    width: 35%;
+    float: left;
+    height: 500px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 0.5em;
+    transition: box-shadow .3s;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.textbox-container{
+    padding:10px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.btnDiv {
+    width: 100%;
+    padding: 5px;
+}
+
+.Popup {
+    background-color: white;
+    border-radius: 5px;
+    border-color: black;
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    height: 280px;
+}
+
+.Background {
+    background-color: #483e66;
+    backdrop-filter: blur(10px);
+    background: rgba(0,0,0,0.9);
+    opacity: 0.8;
+}
+
+.image-container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 15px;
+    margin: 1em;
+}
+
+.time-container {
+    padding: 10px;
+}
+
+/*------------------------------------------------------------------------------00oo Drop Down List oo00---------------------------------------------------------------------*/
+
+.mydropdownlist {
+    color: black;
+    font-size: 15px;
+    padding: 8px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: white;
+    border-color: black;
+}
+
+    .mydropdownlist:hover {
+        color: dimgrey;
+        background-color: whitesmoke;
+        border-color: #ff8308;
+    }
+
+    .mydropdownlist:focus {
+        color: black;
+        background-color: whitesmoke;
+        border-color: #56aff1;
+    }
+
+
+
+/*----------------------------------------------------------------00oo LABELS oo00-----------------------------------------------------------------*/
+.header-label {
+    font-size: 40px;
+    color: #122352;
+}
+.answer-label {
+    font-size: 20px;
+    color: black;
+}
+
+.main-instructions-label {
+    font-size: 33px;
+    color: black;
+}
+
+.instructions-label {
+    font-size: 25px;
+    text-align: left;
+}
+
+.correct-label {
+    font-size: 30px;
+    color: #f26c05;
+}
+
+/*----------------------------------------------------------------00oo DATAGRID oo00-----------------------------------------------------------------*/
+
+.mydatagrid {
+    width: 90%;
+    height: 80%;
+    border: solid 2px #4632a8;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+    .mydatagrid a /** FOR THE PAGING ICONS **/ {
+        background-color: Transparent;
+        padding: 5px 5px 5px 5px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+        .mydatagrid a:hover /** FOR THE PAGING ICONS HOVER STYLES**/ {
+            background-color: #000;
+            color: #fff;
+        }
+
+    .mydatagrid span /** FOR THE PAGING ICONS CURRENT PAGE INDICATOR **/ {
+        background-color: #fff;
+        color: #000;
+        padding: 5px 5px 5px 5px;
+    }
+
+    .mydatagrid td {
+        padding: 5px;
+    }
+
+    .mydatagrid th {
+        padding: 5px;
+    }
+
+.header {
+    background-color: #6a5580;
+    color: White;
+    height: 25px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.rows {
+    background-color: #fff;
+    font-size: 14px;
+    color: #000;
+    min-height: 25px;
+    text-align: left;
+}
+
+.pager {
+    background-color: #5badff;
+    font-family: Arial;
+    color: White;
+    height: 30px;
+    text-align: left;
+}
+
+
+/*----------------------------------------------------------------00oo TEXTBOX oo00-----------------------------------------------------------------*/
+
+.txt-box {
+    padding:10px;
+    width: 40%;
+    color: #4632a8;
+    font-size: 25px;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #4632a8;
+}
+    .txt-box:hover {
+        border-color: #122352;
+    }
+
+/*----------------------------------------------------------------00oo BULLETLIST oo00-----------------------------------------------------------------*/
+.bullet-list {
+    font-size: 20px;
+    padding: 10px;
+    color: #4632a8;
+    list-style-type: none;
+    text-align: center;
+    line-height: 2.5em;
+}
+/*----------------------------------------------------------------00oo BUTTONS oo00-----------------------------------------------------------------*/
+
+.btn {
+    background-color: #fc8f30;
+    border-radius: 3px;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    width: 30%;
+    height: 45px;
+}
+
+    .btn:hover {
+        background-color: #ff7b08;
+        color: white;
+    }
+
+.start-btn {
+    background-color: #1ce823;
+    border-radius: 3px;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    width: 80%;
+    margin-top: 0.5em;
+    height: 45px;
+}
+    .start-btn:hover {
+        background-color: #1ab802;
+    }
+
+
+.game-btn {
+    background-color: #4632a8;
+    border-radius: 3px;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    width: 45%;
+    height: 45px;
+}
+
+    .game-btn:hover {
+        background-color: #28119c;
+    }
+
+.stop-btn {
+    background-color: #ff2121;
+    border-radius: 3px;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    margin-top:0.5em;
+    width: 80%;
+    height: 45px;
+}
+
+    .stop-btn:hover {
+        background-color: #ff6542;
+    }
+/*----------------------------------------------------------------------------00oo END OF FILE oo00-------------------------------------------------------*/

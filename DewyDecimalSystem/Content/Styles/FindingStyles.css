@@ -1,0 +1,298 @@
+﻿body {
+    background: #f0f0f0; /*background: linear-gradient(to bottom, #ffcc66 0%, #ff6666 100%);*/
+    font-family: Rockwell;
+}
+/*----------------------------------------------------------------00oo CONTAINER oo00-----------------------------------------------------------------*/
+.heading-container {
+    margin: 1em;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.game-header-container {
+    margin: 0.5em;
+    text-align: center;
+    padding: 5px;
+}
+
+.instructions-container {
+    padding: 10px;
+    margin: 0.5em;
+    background-color: white;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.content-container {
+    background-color: white;
+    border-radius: 5px;
+    overflow: auto;
+    padding: 15px;
+    margin: 0.5em;
+    width: 60%;
+    float: left;
+    box-shadow: 0 0 18px rgba(33,33,33,.2);
+}
+
+.stopwatch-container {
+    width: 30%;
+    float: right;
+    height: 500px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #21005e;
+    background-color: white;
+    margin: 0.5em;
+    transition: box-shadow .3s;
+    padding: 15px;
+    overflow: auto;
+    box-shadow: 0 0 18px rgba(33,33,33,.4);
+}
+
+.game-btnDiv {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+
+.image-container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 15px;
+    width:100%;
+    margin: 0.5em;
+}
+
+.game-instructions-container {
+    padding: 10px;
+}
+
+.Popup {
+    background-color: white;
+    border-radius: 5px;
+    border-color: black;
+    width: 50%;
+    padding: 20px;
+    height: 230px;
+    text-align: center;
+}
+
+.error-popup {
+    background-color: white;
+    border-radius: 5px;
+    border-color: black;
+    width: 30%;
+    padding: 20px;
+    height: 60%;
+    text-align: center;
+}
+
+.Background {
+    background-color: #a8a6a3;
+    background: rgba(0,0,0,.5);
+    opacity: 0.8;
+}
+
+.btnDiv {
+    width: 100%;
+    padding: 5px;
+}
+
+.answers-container{
+    margin:0.5em;
+    padding:10px;
+}
+
+.text-container {
+    margin: 0.5em;
+    padding: 15px;
+}
+
+.error-image-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin:0.5em;
+    width: 100%;
+}
+
+.error-content-container{
+    width:100%;
+    margin:0.5em;
+    padding:10px;
+    height:70%;
+}
+
+.inner-error-panel{
+    margin:0.5em;
+    padding:10px;
+    margin-top:2em;
+}
+
+.inner-panel-2 {
+    margin: 1em;
+    text-align: left;
+}
+
+.Popup-3 {
+    background-color: white;
+    border-radius: 5px;
+    border-color: black;
+    width: 50%;
+    padding: 10px;
+    height: 440px;
+}
+/*----------------------------------------------------------------00oo BULLETLIST oo00-----------------------------------------------------------------*/
+.radio-list {
+    font-size: 18px;
+    font-weight: 100;
+    color: #122352;
+    text-align: left;
+    line-height: 2em;
+}
+
+/*----------------------------------------------------------------00oo IMAGES oo00-----------------------------------------------------------------*/
+
+.image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100px;
+    width: 100px;
+}
+
+/*----------------------------------------------------------------00oo LABELS oo00-----------------------------------------------------------------*/
+.header-label {
+    font-size: 40px;
+    color: #122352;
+}
+
+.instructions-label {
+    font-size: 25px;
+    text-align: left;
+}
+
+.main-instructions-label {
+    font-size: 35px;
+    color: black;
+}
+.error-instructions-label {
+    font-size: 30px;
+    text-align:left;
+    color: black;
+}
+.second-instructions-label {
+    font-size: 20px;
+}
+
+.game-label {
+    font-size: 30px;
+    color: #122352;
+}
+
+.help-instructions-label-2 {
+    font-size: 20px;
+    color: black;
+}
+/*----------------------------------------------------------------00oo BUTTONS oo00-----------------------------------------------------------------*/
+
+.game-btn {
+    background-color: #4632a8;
+    border-radius: 3px;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    width: 45%;
+    height: 45px;
+}
+
+    .game-btn:hover {
+        background-color: #28119c;
+    }
+
+.start-btn {
+    background-color: #1ab802;
+    border-radius: 3px;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    width: 45%;
+    height: 45px;
+}
+
+    .start-btn:hover {
+        background-color: #8fff5c;
+    }
+
+.restart-btn {
+    background-color: #ff0019;
+    border-radius: 3px;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    width: 45%;
+    height: 45px;
+}
+
+    .restart-btn:hover {
+        background-color: #ff6978;
+    }
+
+.btn {
+    background-color: #fc8f30;
+    border-radius: 3px;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    width: 30%;
+    height: 45px;
+}
+
+    .btn:hover {
+        background-color: #ff7b08;
+        color: white;
+    }
+
+.close-btn {
+    background-color: #db1f12;
+    border-radius: 3px;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    width: 45%;
+    height: 45px;
+}
+
+    .close-btn:hover {
+        background-color: #ed3124;
+        color: white;
+    }
+
+.help-btn {
+    background-color: #1484f5;
+    border-radius: 3px;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    width: 30%;
+    height: 45px;
+}
+
+    .help-btn:hover {
+        background-color: #3695f5;
+        color: white;
+    }
+/*----------------------------------------------------------------------------00oo END OF FILE oo00-------------------------------------------------------*/
